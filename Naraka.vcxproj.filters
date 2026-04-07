@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OS-ImGui">
+      <UniqueIdentifier>{1fa18322-f47a-416e-9669-ea104bc0a42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui\ImGui">
+      <UniqueIdentifier>{1af9c72e-bff2-4250-aa5b-a6f311503697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mem">
+      <UniqueIdentifier>{fc8e22bb-0cc4-4023-8327-f7393cb564f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMM">
+      <UniqueIdentifier>{c81ce8ad-66cd-40b7-b98e-0cc3e09bc85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offset">
+      <UniqueIdentifier>{792e2c8b-aeab-4aa8-87e4-2e780ccb0201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kmbox">
+      <UniqueIdentifier>{94518c0e-3cc0-455c-978d-7d2514ae014a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{fcaa1c4e-28d7-4cbd-a1bb-4dc16258bc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{1ecb4f2b-b6e2-4aec-8481-4c52a8734b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{45a3dc72-f6cf-47c6-8af8-58c0274f1df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Shock">
+      <UniqueIdentifier>{34e3788c-c11a-4ed5-a9b5-1c6e03a94454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Blue">
+      <UniqueIdentifier>{3a651591-67af-4605-8df5-e2d44dad5440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESP">
+      <UniqueIdentifier>{86255432-2589-4686-95b2-81220e23b73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2fc3d5b0-2e57-4aed-adde-fb1b0396e99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui\etc_elements">
+      <UniqueIdentifier>{082644f0-778c-44ae-9708-97f06bd3521d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui\nav_elements">
+      <UniqueIdentifier>{29deb13a-adff-42a1-ac0f-a63cff0a04c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOOK">
+      <UniqueIdentifier>{46513cd2-6260-4acc-bf44-437e42a143ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_demo.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_draw.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_impl_dx11.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_impl_win32.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_tables.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_widgets.cpp">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui_Base.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui_External.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\memory.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="kmboxNet.cpp">
+      <Filter>Kmbox</Filter>
+    </ClCompile>
+    <ClCompile Include="ShockKnife.cpp">
+      <Filter>Logic\Shock</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="etc_elements.cpp">
+      <Filter>OS-ImGui\etc_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="nav_elements.cpp">
+      <Filter>OS-ImGui\nav_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Offset</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>HOOK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pak.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imconfig.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_impl_dx11.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_impl_win32.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_internal.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_rectpack.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_textedit.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_truetype.h">
+      <Filter>OS-ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Base.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Exception.hpp">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_External.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Struct.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\memory.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="leechcore.h">
+      <Filter>VMM</Filter>
+    </ClInclude>
+    <ClInclude Include="vmmdll.h">
+      <Filter>VMM</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Offset</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Offset</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="HidTable.h">
+      <Filter>Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="kmboxNet.h">
+      <Filter>Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockKnife.h">
+      <Filter>Logic\Shock</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockKnifeLogic.h">
+      <Filter>Logic\Shock</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroActivation.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackShockKnife.h">
+      <Filter>Logic\Blue</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackWrite.h">
+      <Filter>Logic\Blue</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="etc_elements.h">
+      <Filter>OS-ImGui\etc_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="nav_elements.h">
+      <Filter>OS-ImGui\nav_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>HOOK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AntiDebug.asm">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
